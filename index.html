@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JSlvl1-lesson1</title>
+</head>
+
+<body>
+  <!-- 1)Температура -->
+  <script>
+    let celc = 36.6;
+    let far = ((9 / 5) * celc + 32).toFixed(1);
+    alert('Фаренгейт =' + far);
+  </script>
+
+  <!-- 2)Переменные -->
+  <script>
+    let name;
+    name = 'Василий';
+    let admin;
+    admin = name;
+    alert('Админа зовут: ' + admin);
+  </script>
+
+  <!-- 3)1000 + '108' -->
+  <script>
+    let a = 1000;
+    let b = '108';
+    let c = a + b;
+    alert('c =' + c); //В данном случае, ответ будет 1000108, но 1000 - это число, а 108 - строка, просто склееные вместе.
+  </script>
+
+  <!-- 4)async и defer,
+     как я понял, используются для ускорения загрузки страницы. И, в случае их использования, скрипт можно размещать в любом месте кода html, так как скрипты будут грузиться независимо от кода верстки. -->
+</body>
+
+</html>
